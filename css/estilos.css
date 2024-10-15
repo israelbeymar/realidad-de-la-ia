@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+    height: 100%;
+    margin-top: 80px; 
+
+nav {
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #f1f1f1e6;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;
+}
+
+.logo {
+    background: url(4616821.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.menu {
+    position: absolute;
+    right: 30px;
+}
+
+.menu a {
+    color: #0056b3; 
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 40px;
+    transition: color 0.3s;
+    padding: 10px;
+}
+
+.menu a:hover {
+    color: brown;
+}
+
+.container {
+    background: url('fondito.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh; 
+    padding-top: 80px; 
+    padding-bottom: 50px; 
+}
+
+section {
+    padding: 50px 10px;
+    color: aliceblue;
+}
+
+section h2 {
+    font-family: 'Lilita One', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: aliceblue;
+
+
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+footer { 
+    background-color: #003366; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+    position: relative; 
+    float: none; 
+  } 
+   
+.social-icons img { 
+    width: 60px; 
+    height: auto; 
+    margin: 0 10px; 
+}
